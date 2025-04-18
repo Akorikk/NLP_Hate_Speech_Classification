@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 
-logging.basicConfig(leve=logging.info, format="[%(asctime)s]: %(message)s:")
+logging.basicConfig(level=logging.INFO, format="[%(asctime)s]: %(message)s:")
 
 project_name = "Text Summarization"
 
@@ -43,7 +43,6 @@ for filepath in list_of_files:
             logging.info(f"Creating empty file: {filepath}")
 
 
-    
     else:
         logging.info(f"{filename} is already exists")
 
