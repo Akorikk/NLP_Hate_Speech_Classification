@@ -7,7 +7,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "End_to_End_NLP"
 AUTHOR_USER_NAME = "Akorikk"
-SRC_REPO = "Text Summarization"
+SRC_REPO = "Hate Speech Classification"
 AUTHOR_EMAIL = "abhishekkori601@gmail.com"
 
 setuptools.setup(
